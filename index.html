@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GojoEstate — Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">MyEstate</a>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="listings.html" class="nav-link">Listings</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Find your next home</h1>
+          <p class="lead">Search, filter, and explore properties with clear details and beautiful photos.</p>
+          <a class="btn" href="listings.html">Browse Listings</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-placeholder.jpg" alt="House exterior">
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Listings -->
+    <section class="featured container">
+      <h2>Featured Listings</h2>
+      <div class="listings-grid">
+        <!-- card 1 -->
+        <article class="card">
+          <img src="images/house1.jpg" alt="Cozy apartment">
+          <div class="card-body">
+            <h3>Urban Studio — 1 Bed</h3>
+            <p class="price">$120,000 • 1 bed • 1 bath</p>
+            <p class="muted">Addis Ababa</p>
+          </div>
+        </article>
+
+        <!-- card 2 -->
+        <article class="card">
+          <img src="images/house2.jpg" alt="Family house">
+          <div class="card-body">
+            <h3>Family Home — 3 Bed</h3>
+            <p class="price">$320,000 • 3 bed • 2 bath</p>
+            <p class="muted">Bole</p>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card">
+          <img src="images/house3.jpg" alt="Modern villa">
+          <div class="card-body">
+            <h3>Modern Villa — 4 Bed</h3>
+            <p class="price">$850,000 • 4 bed • 4 bath</p>
+            <p class="muted">Lideta</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how container">
+      <h2>How It Works</h2>
+      <div class="grid how-grid">
+        <div class="how-step">
+          <h4>Search</h4>
+          <p>Use filters to find properties that match your needs.</p>
+        </div>
+        <div class="how-step">
+          <h4>Explore</h4>
+          <p>View photos and details for each listing.</p>
+        </div>
+        <div class="how-step">
+          <h4>Contact</h4>
+          <p>Get in touch with agents directly via the contact page.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> MyEstate — Crafted for Web Design & Programming</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // tiny helper: update year (no build step)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
