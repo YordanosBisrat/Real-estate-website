@@ -1,112 +1,239 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>GojoEstate — Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gojo — Home</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html">MyEstate</a>
-      <nav class="nav">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="listings.html" class="nav-link">Listings</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Find your next home</h1>
-          <p class="lead">Search, filter, and explore properties with clear details and beautiful photos.</p>
-          <a class="btn" href="listings.html">Browse Listings</a>
+    <!-- NAVIGATION BAR -->
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpg" alt="Gojo Logo">
+                <span>Gojo</span>
+            </a>
+
+            <!-- Nav Links -->
+            <nav class="nav">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="explore.html">Explore</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
         </div>
-        <div class="hero-image">
-          <img src="images/hero-placeholder.jpg" alt="House exterior">
+    </header>
+
+
+
+    <!-- HERO SECTION -->
+    <section class="home-hero">
+        <div class="home-hero-overlay">
+
+            <div class="container hero-content">
+                <h1>Your Home, Your Future</h1>
+                <p><strong>Find the perfect place to call home with Gojo Real Estate.></strong></p>
+                <a href="explore.html" class="btn-primary">Start Exploring</a>
+            </div>
+
         </div>
-      </div>
     </section>
 
-    <!-- Featured Listings -->
+
+
+    <!-- FEATURED LISTINGS -->
     <section class="featured container">
-      <h2>Featured Listings</h2>
-      <div class="listings-grid">
-        <!-- card 1 -->
-        <article class="card">
-          <img src="images/house1.jpg" alt="Cozy apartment">
-          <div class="card-body">
-            <h3>Urban Studio — 1 Bed</h3>
-            <p class="price">$120,000 • 1 bed • 1 bath</p>
-            <p class="muted">Addis Ababa</p>
-          </div>
-        </article>
+        <h2 class="section-title">Featured Properties</h2>
 
-        <!-- card 2 -->
-        <article class="card">
-          <img src="images/house2.jpg" alt="Family house">
-          <div class="card-body">
-            <h3>Family Home — 3 Bed</h3>
-            <p class="price">$320,000 • 3 bed • 2 bath</p>
-            <p class="muted">Bole</p>
-          </div>
-        </article>
+        <div class="grid listings-grid">
 
-        <!-- card 3 -->
-        <article class="card">
-          <img src="images/house3.jpg" alt="Modern villa">
-          <div class="card-body">
-            <h3>Modern Villa — 4 Bed</h3>
-            <p class="price">$850,000 • 4 bed • 4 bath</p>
-            <p class="muted">Lideta</p>
-          </div>
-        </article>
-      </div>
+            <!-- CARD 1 -->
+            <div class="listing-card">
+                <img src="images/house1.jpg" alt="House 1">
+                <div class="card-content">
+                    <h3>Modern Villa</h3>
+                    <p>Addis Ababa • 3 Bedrooms</p>
+                    <span class="price">$220,000</span>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="listing-card">
+                <img src="images/house2.jpg" alt="House 2">
+                <div class="card-content">
+                    <h3>Luxury Family Home</h3>
+                    <p>Adama • 4 Bedrooms</p>
+                    <span class="price">$310,000</span>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="listing-card">
+                <img src="images/house3.jpg" alt="House 3">
+                <div class="card-content">
+                    <h3>Modern Apartment</h3>
+                    <p>Bahir Dar • 2 Bedrooms</p>
+                    <span class="price">$160,000</span>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <!-- How it works -->
-    <section class="how container">
-      <h2>How It Works</h2>
-      <div class="grid how-grid">
-        <div class="how-step">
-          <h4>Search</h4>
-          <p>Use filters to find properties that match your needs.</p>
+
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Find Your New Home?</h2>
+            <p>Explore hundreds of properties from trusted agents across Ethiopia.</p>
+            <a href="explore.html" class="btn-primary">Browse All Listings</a>
         </div>
-        <div class="how-step">
-          <h4>Explore</h4>
-          <p>View photos and details for each listing.</p>
-        </div>
-        <div class="how-step">
-          <h4>Contact</h4>
-          <p>Get in touch with agents directly via the contact page.</p>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> MyEstate — Crafted for Web Design & Programming</p>
-      <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="listings.html">Listings</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </footer>
 
-  <script>
-    // tiny helper: update year (no build step)
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    <!-- OUR NUMBERS SECTION -->
+    <section class="our-numbers">
+        <div class="container numbers-content">
+            <h2>Our Numbers</h2>
+            <p>Trusted by many, delivering results. See our impact in numbers.</p>
+            
+            <div class="numbers-grid">
+                <div class="number-item">
+                    <span class="number">2008</span>
+                    <span class="label">Founded</span>
+                </div>
+                <div class="number-item">
+                    <span class="number">95+</span>
+                    <span class="label">Projects</span>
+                </div>
+                <div class="number-item">
+                    <span class="number">1000+</span>
+                    <span class="label">Employees</span>
+                </div>
+                <div class="number-item">
+                    <span class="number">$6 Billion</span>
+                    <span class="label">Value in Birr</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY YOU CHOOSE US SECTION -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why You Choose Us</h2>
+
+            <div class="benefits-grid">
+                <!-- Benefit 1 -->
+                <div class="benefit-item">
+                    <div class="benefit-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Discover properties tailored to your lifestyle, offering convenient access to amenities, schools, and transportation hubs.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="benefit-item">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Affordable</h3>
+                    <p>Find your dream home without breaking the bank. Our diverse portfolio ensures quality and affordability with transparent pricing and flexible options.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="benefit-item">
+                    <div class="benefit-icon">✅</div>
+                    <h3>Quality</h3>
+                    <p>Invest confidently in properties that prioritize safety, security, and durability. Rigorous inspections and reputable partnerships ensure lasting value.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="benefit-item">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Safety & Security</h3>
+                    <p>Your safety is our top priority. Explore neighborhoods with excellent security records and properties equipped with essential safety features.</p>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="benefit-item">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Investment</h3>
+                    <p>Secure your future with properties poised for appreciation, aligning with your long-term goals and aspirations.</p>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="benefit-item">
+                    <div class="benefit-icon">🏠</div>
+                    <h3>Amenity</h3>
+                    <p>Experience unparalleled comfort and convenience with amenity-rich properties tailored to your desires.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+
+            <!-- Left: Logo + Tagline -->
+            <div class="footer-column">
+                <img src="images/logo.jpg" alt="Gojo Estate Logo" class="footer-logo">
+                <p class="footer-tagline">Gojo Estate helps users find properties easily with advanced search and a modern user experience.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i>📘</i></a>
+                    <a href="#" aria-label="Instagram"><i>📸</i></a>
+                    <a href="#" aria-label="Telegram"><i>✉️</i></a>
+                    <a href="#" aria-label="LinkedIn"><i>💼</i></a>
+                </div>
+            </div>
+
+            <!-- Middle: Quick Links -->
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Listings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+            <!-- Right: Contact Info -->
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <div class="contact-item">
+                    <span>📞</span>
+                    <a href="tel:+251900000000">+251 900 000 000</a>
+                </div>
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:support@gojoestate.com">support@gojoestate.com</a>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span>Addis Ababa, Ethiopia</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright Line -->
+        <div class="footer-bottom">
+            <p>© 2025 Gojo Estate. All rights reserved.</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
