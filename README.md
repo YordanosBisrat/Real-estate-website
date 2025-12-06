@@ -14,23 +14,29 @@ This project follows best practices in semantic HTML, external CSS styling, mobi
 - **Contact (contact.html)**
 
 ## 📂 Folder Structure
-```
-Gojo-RealEstate/
-│── index.html
-│── about.html
-│── contact.html
-│── style.css
-│── /images
-│── README.md
-```
+Gojo-Real-Estate/
+│── index.html  
+│── about.html  
+│── explore.html  
+│── contact.html  
+│── css/  
+│   └── style.css  
+│── images/  
+│   ├── bg.jpg  
+│   ├── bg2.jpg  
+│   ├── hero-placeholder.jpg  
+│   ├── hero.jpg  
+│   └── listings images…  
+└── README.md
 
-## 🎨 Features
-- Fully responsive layout
-- Clean typography & color system
-- Sticky navigation bar
-- Hero background with centered text
-- External CSS styling
-- Semantic HTML structure
+## 🚀 Features
+- Multi-page layout (Home, About, Explore, Contact)
+- Smooth navigation bar linking all pages
+- Hero sections with background images + overlay
+- Featured listings and property cards
+- Core values section and about content
+- Contact form with proper layout & styling
+- Fully responsive (mobile, tablet, desktop)
 
 ## 📸 Images
 Images stored in `/images`.
@@ -50,3 +56,7 @@ Open **index.html** in any browser or run via VS Code Live Server.
 - Designing a clean navigation system
 - Using CSS Flexbox & Grid more effectively
 - Maintaining a simple, reusable design system
+
+## 📘 Summary
+A clean, modern real estate website created as a final HTML & CSS project.  
+Demonstrates layout design, responsiveness, component reuse, and visual consistency.
