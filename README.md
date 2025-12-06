@@ -1,35 +1,52 @@
-# 🏡 GOJO Property Showcase — Clean, Fast, No JS
+# 🏡 Gojo Real Estate — Modern Property Listing Website
+A fully responsive, multi-page real estate website built using **HTML** and **CSS**.
+The project demonstrates clean layout design, modern UI styling, and consistent structure across all pages.
 
-> A sleek, responsive real estate landing page built 100% in HTML & CSS — no JavaScript, no frameworks, no bloat. Designed for speed, accessibility, and visual impact with bold primary color backgrounds.
+## 📌 Project Overview
+Gojo Real Estate is a fictional real-estate platform designed to showcase available houses, introduce the company’s values, and offer a clean way for users to explore listings.
 
-![Preview: Hero banner with "Featured Properties" section below](preview.png)
+This project follows best practices in semantic HTML, external CSS styling, mobile-friendly layout, and structured design.
 
-> ✅ No background images — uses solid #1e3a8a (deep blue) and #f59e0b (amber) for performance and consistency.  
-> ✅ Spacious layout — fixed spacing issue between hero and content (now 4rem padding).  
-> ✅ Mobile-first — looks stunning on all devices.
 
----
+## 📁 Pages Included
+- **Home (index.html)**
+- **About (about.html)**
+- **Contact (contact.html)**
 
-## 🚀 Why This Project?
+## 📂 Folder Structure
+```
+Gojo-RealEstate/
+│── index.html
+│── about.html
+│── contact.html
+│── style.css
+│── /images
+│── README.md
+```
 
-Most property sites are bloated with JS libraries, lazy-loaded images, and complex frameworks. GOJO proves you can build a beautiful, modern, high-converting real estate page with just vanilla HTML and CSS — perfect for:
+## 🎨 Features
+- Fully responsive layout
+- Clean typography & color system
+- Sticky navigation bar
+- Hero background with centered text
+- External CSS styling
+- Semantic HTML structure
 
-- Portfolio projects
-- Client landing pages
-- Static site generators (like Jekyll or Hugo)
-- Developers learning responsive design
-- Accessibility-first initiatives
+## 📸 Images
+Images stored in `/images` (from Unsplash/Pexels).
 
----
+## 💡 How to Run
+Open **index.html** in any browser or run via VS Code Live Server.
 
-## 🎨 Key Design Principles
+## 👥 Team Members
+- Christian Elias
+- Menal Abdulkadir
+- Ruth Tewodros
+- Yordanos Bisrat
 
-| Feature             | Implementation                                                                 |
-|---------------------|--------------------------------------------------------------------------------|
-| Spacing         | Generous padding-top: 4rem between hero and “Featured Properties” to fix crowding. |
-| Color Palette   | Primary: #1e3a8a, Accent: #f59e0b, Text: #ffffff / #111827 for contrast. |
-| Typography      | System fonts (Segoe UI, Roboto, Helvetica) for fast loading + readability. |
-| Layout          | Flexbox + Grid for responsive cards; mobile-first breakpoints.                 |
-| Accessibility   | Semantic HTML5 tags, proper ARIA labels, keyboard navigable.                   |
-
----
+## 🧩 Challenges & Lessons Learned
+- Achieving consistent responsive layout across all 3 pages
+- Improving hero image contrast while keeping text readable
+- Designing a clean navigation system
+- Using CSS Flexbox & Grid more effectively
+- Maintaining a simple, reusable design system

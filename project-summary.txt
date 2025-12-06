@@ -1,0 +1,23 @@
+Gojo Real Estate - Project Summary
+
+Project Title:
+Gojo Real Estate Website
+
+Theme:
+A modern, fully responsive real estate listing website designed to showcase properties, present company values, and offer intuitive navigation for users.
+
+Description (3–5 lines):
+The Gojo Real Estate website is a three-page responsive platform built using HTML and CSS. It includes a hero section, featured listings, core values, and a functional contact layout. The design focuses on clarity, visual appeal, and consistent structure across devices. It demonstrates semantic HTML, organized styling, and a modern UI system suitable for real estate branding.
+
+Team Members:
+- (Add your names here)
+
+Challenges Faced:
+- Ensuring consistent responsiveness across all screen sizes.
+- Balancing hero background images with readable text.
+- Maintaining clean visual structure and spacing across pages.
+
+Lessons Learned:
+- Improved understanding of CSS Flexbox and responsive design.
+- The importance of consistent design systems.
+- Better handling of images, layout alignment, and typography.
