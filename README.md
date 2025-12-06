@@ -33,7 +33,7 @@ Gojo-RealEstate/
 - Semantic HTML structure
 
 ## 📸 Images
-Images stored in `/images` (from Unsplash/Pexels).
+Images stored in `/images`.
 
 ## 💡 How to Run
 Open **index.html** in any browser or run via VS Code Live Server.
