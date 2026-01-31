@@ -1,0 +1,7 @@
+gojo-real-estate/backend/.env
+gojo-real-estate/backend/node_modules/
+gojo-real-estate/backend/package.json
+gojo-real-estate/backend/package-lock.json
+gojo-real-estate/node_modules/
+gojo-real-estate/package-lock.json
+gojo-real-estate/package.json
