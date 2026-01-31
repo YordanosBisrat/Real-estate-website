@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Modern Villa",
+      "location": "Addis Ababa",
+      "price": "50,220,000 ETB",
+      "image": "house1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Family Home",
+      "location": "Adama",
+      "price": "29,310,000 ETB",
+      "image": "house2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Modern Apartment",
+      "location": "Bahir Dar",
+      "price": "22,260,000 ETB",
+      "image": "house3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "City View Penthouse",
+      "location": "Addis Ababa - Bole",
+      "price": "65,000,000 ETB",
+      "image": "house4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Cozy Single Bedroom",
+      "location": "Hawassa",
+      "price": "12,500,000 ETB",
+      "image": "house5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Classic Ethiopian Home",
+      "location": "Gondar",
+      "price": "18,950,000 ETB",
+      "image": "house6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Luxury Lakeside Villa",
+      "location": "Bishoftu",
+      "price": "75,000,000 ETB",
+      "image": "house7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Modern Loft Apartment",
+      "location": "Mekelle",
+      "price": "17,200,000 ETB",
+      "image": "house8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Spacious Family House",
+      "location": "Jimma",
+      "price": "27,800,000 ETB",
+      "image": "house9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Premium Luxury Mansion",
+      "location": "Addis Ababa - CMC",
+      "price": "120,000,000 ETB",
+      "image": "house10.jpg"
+    }
+  ]
+  
