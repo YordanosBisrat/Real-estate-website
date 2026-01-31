@@ -1,0 +1,30 @@
+Gojo Real Estate - Project Summary
+
+Project Title:
+Gojo Real Estate Website
+
+Team Members:
+- Christian Elias
+- Menal Abdulkadir
+- Ruth Tewodros
+- Yordanos Bisrat
+
+Theme:
+A modern, fully responsive real estate listing website designed to showcase properties, present company values, and offer intuitive navigation for users.
+
+Description 
+The Gojo Real Estate Website is a fully responsive multi-page platform designed using clean HTML and CSS principles. It includes pages for Home, About, Explore, and Contact, each with consistent design, color themes, and layout structure. The site features hero sections, property listings, values section, modern navigation, and a unified footer. The design focuses heavily on readability, consistency, and user-friendly structure.
+
+Challenges Faced:
+- Making all background images well-visible without affecting text readability
+- Keeping design consistent across 4 different pages
+- Handling responsiveness for mobile and tablet
+- Structuring clean and reusable CSS
+- Managing spacing, shadows, and typography consistency
+
+Lessons Learned:
+- The power of CSS variables for color and layout consistency
+- How to use grids and flexbox for responsive sections
+- How overlays and text-shadow affect legibility on images
+- How to write clean, maintainable HTML
+- How layout spacing dramatically improves design quality
